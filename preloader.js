@@ -9,13 +9,13 @@ overlay.style.cssText = `
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(23, 27, 41, 0.7);
     z-index: 999;
 `;
 
 const svgImage = document.createElement('img');
 svgImage.id = 'svgImage';
-svgImage.src = 'https://gamera.online/preload.svg';
+svgImage.src = 'https://raw.githubusercontent.com/ExpertSunny/flutter_web_preloader/main/preload.svg';
 svgImage.style.cssText = `
     max-width: 100%;
     max-height: 100%;
